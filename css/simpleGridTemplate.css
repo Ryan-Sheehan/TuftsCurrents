@@ -16,8 +16,9 @@ body {
 header {
 	width: 100%;
 	height: 8%;
-	background-color: #5D5E5D;
-	border-bottom: 1px solid #353635;
+	justify-content: center;
+	background-color: #FFFFFF;
+	border-bottom: 1px solid #841983;
 }
 .logo {
 	color: #fff;
@@ -70,12 +71,12 @@ header {
 	margin-right: 1%;
 	border-radius: 3px;
 	padding-top: 20px;
-	border-bottom: 4px solid #6DC7D0;
+	border-bottom: 4px solid #fe6587;
 }
 .gallery .thumbnail h4 {
 	margin-top: 5px;
 	margin-bottom: 5px;
-	color: #52BAD5;
+	color: #5ebdb1;
 	text-align: left;
 	padding-left: 20px;
 	padding-right: 20px;
@@ -89,13 +90,15 @@ header {
 /* More info */
 .intro {
 	background-color: #FFFFFF;
-	padding-bottom: 35px;
+	padding-bottom: 0;
+	border-bottom: 1px solid #841983;
 }
-.column {
-	width: 50%;
-	text-align: center;
-	padding-top: 30px;
-	float: left;
+.banner {
+	width: 100%;
+	height: 100%;
+	padding-top: 0;
+	padding-bottom: 0;
+	border-bottom: 1px solid #841983;
 }
 .intro .column h3 {
 	color: #FFFFFF;
@@ -122,6 +125,7 @@ header {
 	width: 80%;
 	margin-top: 4%;
 }
+
 .button {
 	width: 200px;
 	margin-top: 40px;
@@ -143,7 +147,7 @@ header {
 	transition: all 0.3s linear;
 }
 .button:hover {
-	background-color: #6DC7D0;
+	background-color: #ef473a;
 	color: #FFFFFF;
 	cursor: pointer;
 }
@@ -165,7 +169,7 @@ footer {
 }
 .intro {
 	display: inline-block;
-	background-color: #6DC7D0;
+	background-color: #841983;
 }
 .profile {
 	width: 50%;
