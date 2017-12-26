@@ -21,7 +21,9 @@ img {
 	max-width: 100%;
 	height: auto;
 	vertical-align: middle;
+	
 }
+
 .currents-logo {
 	margin-left: auto;
 	margin-right: auto;
@@ -44,7 +46,7 @@ img {
 }
 
 .hero {
-	background-image: url(/images/sweetnsourheader.png);
+	background-image: url(/images/jessie_header.jpg);
 	background-size: cover;
 	padding: 20px 20px 50px 20px;
 	color: #FFFFFF;
@@ -52,11 +54,16 @@ img {
 }
 
 .pink {
+	background-color: #cdc0d5;
+}
+.yellow {
 	background-color: #f7eaa9;
 }
-
-.yellow {
-	background-color: #cdc0d5;
+.cyan {
+	background-color: #00aeef;
+}
+.black {
+	background-color: black;
 }
 .solid-block {
 	color: #FFFFFF;
@@ -116,9 +123,42 @@ p {
 }
 
 .footer-text {
+	color: #FFFFFF;
 	font-size: 13px;
 	margin-bottom: 20px;
-	
+}
+.footer-mailto {
+	text-decoration: none;
+	color: #FFFFFF;
+	transition: color 0.3s;
+}
+.footer-mailto:hover {
+	color: rgba(241,91,93,1);
+}
+.socials {
+	color: #FFFFFF;
+	font-size: 30px;
+}
+.fa-instagram {
+	transition: color 0.2s;
+}
+.fa-instagram:hover {
+	color: #8a3ab9;
+}
+.fa-facebook-square {
+	transition: color 0.2s;
+}
+.fa-facebook-square:hover {
+	color: #3B5998;
+}
+.fa-pinterest {
+	transition: color 0.2s;
+}
+.fa-pinterest:hover {
+	color: #C92228;
+}
+.col {
+	width: 100%;
 }
 
 /* Tablet view */
@@ -130,6 +170,37 @@ p {
 	
 	.nav-bar ul {
 		text-align: center;
+	}
+	.hero {
+		background-image: url(/images/sweetnsourheader.png);
+	}
+	h1 {
+		font-size: 40px;
+		margin-bottom: 90px;
+	}
+	.solid-block {
+		height: 250px;
+	}
+
+	.featured-artist-img {
+		
+	}
+	.spacer {
+		width: 100%;
+		max-width: 100%;
+		height: 332px;
+		background-image: url(/images/lemonbackcover.jpg);
+		background-size: cover;
+		background-position: center center; 
+	}
+
+	.col-md-one-half {
+		width: 50%;
+	}
+	.col {
+		float: left;
+		padding: 6px 7px 14px;
+		
 	}
 }
 
